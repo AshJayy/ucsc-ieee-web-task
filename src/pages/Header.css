@@ -1,4 +1,4 @@
-nav{
+.nav{
     margin: 0 36px 0 36px;
     display: flex;
     justify-content: space-between;
@@ -7,7 +7,7 @@ nav{
     box-sizing: border-box;
 }
 
-nav ul {
+.nav ul {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -19,7 +19,7 @@ nav ul {
     
 }
 
-nav li{
+.nav li{
     display: block;
     padding: 0.5rem 2rem;
     font-size: 20px;
@@ -28,6 +28,6 @@ nav li{
     color: #fff;
 }
 
-nav img{
+.nav img{
     height: 3em;
 }

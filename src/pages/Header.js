@@ -5,7 +5,7 @@ import logo from '../logos/logo.png';
 function Header(){
     return(
         <header className="black-transparent">
-            <nav>
+            <nav class="nav">
             <img src={logo} alt="logo" id="logo" />
                 <ul>
                     <li>About</li>
