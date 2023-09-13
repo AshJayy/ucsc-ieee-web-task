@@ -1,0 +1,12 @@
+#hero{
+    display: flex;
+    gap: 4vw;
+    padding: 10vw;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#hero .logo {
+    width: 30vw;
+}
