@@ -1,0 +1,47 @@
+#intro {
+    margin: 10vw 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#intro > div {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    gap: 7vw;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+#intro article:first-of-type{
+    justify-content: center;
+    gap: .5em;
+    padding: 1vw 3vw;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#intro article:last-of-type{
+    position: relative;
+    height: fit-content;
+}
+
+#intro p{
+    padding: 1.5vw;
+    margin: 0;
+}
+
+#intro img{
+    width: 30vw;
+}
+
+#elevate{
+    font-family: "elevate";
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: "elevate";
+    src: url("https://db.onlinewebfonts.com/t/f69ff86e79388ae1f8ab4cb56d45a0d3.ttf")format("truetype");
+}

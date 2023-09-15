@@ -22,6 +22,14 @@ code {
   width: 100%;
 }
 
+.title{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin: 0;
+}
+
 .sub-title{
   font-family: "main";
   font-size: 24px;
@@ -33,6 +41,9 @@ code {
 
 .right-align{
   text-align: right;
+}
+.center-align{
+  text-align: center;
 }
 
 header{
@@ -60,10 +71,31 @@ button{
   width: 100%;
 }
 
+.padding-zero{
+  padding: 0;
+}
+
+.absolute-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .flex-column{
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.flex-row > * {
+  flex : 1;
 }
 
 @font-face {

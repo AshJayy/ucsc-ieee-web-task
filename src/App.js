@@ -1,5 +1,6 @@
 import './App.css';
 import Hero from './pages/Hero';
+import Intro from './pages/Intro';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     backgroundSize:"cover",
     width: "100%"}}>
         <Hero />
+        <Intro />
     </div>
   );
 }
