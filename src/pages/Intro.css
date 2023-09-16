@@ -15,11 +15,21 @@
 }
 
 #intro article:first-of-type{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#intro article:first-of-type div{
+    height: 100%;
+    width: inherit;
+}
+
+#intro .intro-text{
     justify-content: center;
     gap: .5em;
     padding: 1vw 3vw;
     box-sizing: border-box;
-    height: 100%;
+
 }
 
 #intro article:last-of-type{

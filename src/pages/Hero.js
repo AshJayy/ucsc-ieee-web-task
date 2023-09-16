@@ -1,13 +1,20 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import "./Hero.css";
-import Header from './Header';
 import logo from '../logos/logo.png';
+import ScrollAnimation from "react-animate-on-scroll";
 
 
 function Hero(){
+
+    const [firstLoad, setFirstLoad] = useState(true);
+
+    useEffect(() => {
+        setFirstLoad(false);
+    }, []);
+
     return(
-        <section className="full-page">
-            <Header />
+        <ScrollAnimation  animateIn="animate__fadeIn" animateOut="animate__fadeOut" initiallyVisible={firstLoad}>
             <section id="hero" className="black-transparent">
                 <div className="flex-column">
                     <img src={logo} alt="logo" className="logo" />
@@ -26,7 +33,7 @@ function Hero(){
                     </p>
                 </div>
             </section>
-        </section>
+        </ScrollAnimation>
 
     );
 }
