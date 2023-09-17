@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import logo from '../logos/logo.png';
 
 function Header(){
@@ -8,9 +9,9 @@ function Header(){
             <nav class="nav">
             <img src={logo} alt="logo" id="logo" />
                 <ul>
-                    <li>About</li>
-                    <li>Timeline</li>
-                    <li>Prizes</li>
+                    <AnchorLink href="#hero"><li>Home</li></AnchorLink>
+                    <AnchorLink href="#intro"><li>About</li></AnchorLink>
+                    <AnchorLink href="#timeline"><li>Timeline</li></AnchorLink>
                     <li>FAQ</li>
                 </ul>
             </nav>

@@ -17,6 +17,11 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .full-page{
   height: 100vh;
   width: 100%;
@@ -71,6 +76,11 @@ button{
   width: 100%;
 }
 
+.black-gradient{
+  background: rgb(0,0,0); 
+background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(5,5,5,0.25) 75%, rgba(0,0,0,0) 100%);
+}
+
 .padding-zero{
   padding: 0;
 }
@@ -102,3 +112,4 @@ button{
   font-family: "main";
   src: url("assets/fonts/ChakraPetch.ttf");
 }
+
