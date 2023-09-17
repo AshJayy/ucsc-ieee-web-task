@@ -4,6 +4,7 @@ import Header from './pages/Header';
 import Hero from './pages/Hero';
 import Intro from './pages/Intro';
 import Timeline from './pages/Timeline';
+import Footer from './pages/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Intro />
         </ScrollAnimation>
         <Timeline />
+        <Footer />
 
     </div>
   );
