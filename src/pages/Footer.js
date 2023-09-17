@@ -12,7 +12,7 @@ function Footer(){
         <footer>
             <div className="footer-item site-map flex-column">
                 <AnchorLink href="#hero"><p>Home</p></AnchorLink>
-                <AnchorLink href="#about"><p>About</p></AnchorLink>
+                <AnchorLink href="#intro"><p>About</p></AnchorLink>
                 <AnchorLink href="#timeline"><p>Timeline</p></AnchorLink>
                 <p>FAQ</p>
             </div>
