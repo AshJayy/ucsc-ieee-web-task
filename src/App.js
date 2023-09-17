@@ -1,8 +1,10 @@
 import './App.css';
+import ScrollAnimation from "react-animate-on-scroll";
 import Header from './pages/Header';
 import Hero from './pages/Hero';
 import Intro from './pages/Intro';
-import ScrollAnimation from "react-animate-on-scroll";
+import Timeline from './pages/Timeline';
+
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <ScrollAnimation animateIn="animate__fadeIn" animateOut='animate__fadeOut'>
           <Intro />
         </ScrollAnimation>
+        <Timeline />
+
     </div>
   );
 }
