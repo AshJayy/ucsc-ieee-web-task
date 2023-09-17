@@ -1,14 +1,29 @@
 header{
     top: 0;
+    position: fixed;
+    z-index: 99;
   }
 
 .nav{
-    margin: 0 36px 0 36px;
+    margin: 0 3em;
     display: flex;
     justify-content: space-between;
     align-content: center;
     padding: 1.25rem;
     box-sizing: border-box;
+}
+
+.nav-large {
+    padding: 1.25rem;
+    transform: scale(1);
+    transition: .2s;
+}
+
+.nav-small{
+    transform: scale(0.9);
+    transition: 1s;
+    padding: 0.5rem;
+
 }
 
 .nav .nav-list {

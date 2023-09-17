@@ -15,22 +15,24 @@ function Hero(){
 
     return(
         <ScrollAnimation  animateIn="animate__fadeIn" animateOut="animate__fadeOut" initiallyVisible={firstLoad}>
-            <section id="hero" className="black-gradient">
-                <div className="flex-column">
-                    <img src={logo} alt="logo" id="logo" />
-                    <button>Register Now</button>
-                </div>
-                <div>
-                    <p className="hero-text sub-title right-align">
-                    Sri Lanka’s first ever
-                    <br />
-                    Mobile Application Development
-                    <br/>
-                    Hackathon
-                    </p>
-                    <p className="right-align">
-                        A project by the IEEE Student branch of UCSC
-                    </p>
+            <section id="hero">
+                <div className="hero-content black-gradient">
+                    <div className="flex-column">
+                        <img src={logo} alt="logo" id="logo" />
+                        <button>Register Now</button>
+                    </div>
+                    <div>
+                        <p className="hero-text sub-title right-align">
+                        Sri Lanka’s first ever
+                        <br />
+                        Mobile Application Development
+                        <br/>
+                        Hackathon
+                        </p>
+                        <p className="right-align">
+                            A project by the IEEE Student branch of UCSC
+                        </p>
+                    </div>
                 </div>
             </section>
         </ScrollAnimation>
