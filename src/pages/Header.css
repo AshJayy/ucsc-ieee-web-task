@@ -1,3 +1,7 @@
+header{
+    top: 0;
+  }
+
 .nav{
     margin: 0 36px 0 36px;
     display: flex;
@@ -7,19 +11,16 @@
     box-sizing: border-box;
 }
 
-.nav ul {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-right: 1rem;
+.nav .nav-list {
     margin: 0;
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    
+    padding-right: 1rem;
+    list-style: none;
 }
 
-.nav li{
+.nav .nav-item{
     display: block;
     padding: 0.5rem 2rem;
     font-size: 20px;
@@ -28,6 +29,6 @@
     color: #fff;
 }
 
-.nav img{
+.nav #logo{
     height: 3em;
 }

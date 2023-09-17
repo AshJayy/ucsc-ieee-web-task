@@ -7,10 +7,10 @@ import ScrollAnimation from "react-animate-on-scroll";
 function Intro(){
     return(
         <section id="intro" className="full-page">
-            <div>
+            <div className="intro-container">
                 <article >
-                    <ScrollAnimation animateIn="animate__fadeInRight">
-                        <div className="intro-text black-transparent flex-column">
+                    <ScrollAnimation animateIn="animate__fadeInRight" >
+                        <div className="intro-desc black-transparent flex-column">
                             <span className="padding-zero" ><h2 className="title">What is</h2></span>
                             <p>
                             Introducing Sri Lanka’s first Mobile Application Development Hackathon, 
@@ -28,7 +28,7 @@ function Intro(){
                 <article>
                     <ScrollAnimation animateIn="animate__fadeInRight" delay={500}>
                         <img src={mad} alt="Elevate mobile app development" />
-                        <div className="absolute-center" id="elevate">
+                        <div className="absolute-center elevate">
                             <ScrollAnimation animateIn="animate__zoomIn">
                                 <p className="center-align">elevate mobile app development</p>
                             </ScrollAnimation>

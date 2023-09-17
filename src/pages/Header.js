@@ -8,11 +8,11 @@ function Header(){
         <header className="black-transparent">
             <nav class="nav">
             <img src={logo} alt="logo" id="logo" />
-                <ul>
-                    <AnchorLink href="#hero"><li>Home</li></AnchorLink>
-                    <AnchorLink href="#intro"><li>About</li></AnchorLink>
-                    <AnchorLink href="#timeline"><li>Timeline</li></AnchorLink>
-                    <li>FAQ</li>
+                <ul className="nav-list">
+                    <AnchorLink href="#hero"><li className="nav-item">Home</li></AnchorLink>
+                    <AnchorLink href="#intro"><li className="nav-item">About</li></AnchorLink>
+                    <AnchorLink href="#timeline"><li className="nav-item">Timeline</li></AnchorLink>
+                    <li className="nav-item">FAQ</li>
                 </ul>
             </nav>
         </header>

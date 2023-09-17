@@ -1,11 +1,11 @@
 #intro {
-    padding: 10vw 0;
-    width: 100%;
     display: flex;
     justify-content: center;
+    padding: 10vw 0;
+    width: 100%;
 }
 
-#intro > div {
+#intro .intro-container {
     display: grid;
     grid-template-columns: 30vw 30vw;
     gap: 7vw;
@@ -24,7 +24,7 @@
     width: inherit;
 }
 
-#intro .intro-text{
+#intro .intro-desc{
     justify-content: center;
     gap: .5em;
     padding: 1vw 3vw;
@@ -38,15 +38,15 @@
 }
 
 #intro p{
-    padding: 1.5vw;
     margin: 0;
+    padding: 1.5vw;
 }
 
 #intro img{
     width: 30vw;
 }
 
-#elevate{
+.elevate{
     font-family: "elevate";
     font-size: 24px;
 }

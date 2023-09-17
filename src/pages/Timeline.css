@@ -34,10 +34,6 @@
     width: 50%;
 }
 
-/* .timeline-container > div:nth-child(odd){
-    display: flex;
-} */
-
 .timeline-item:nth-child(odd) {
     align-self: flex-end;
     justify-content: flex-start;

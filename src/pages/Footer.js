@@ -10,16 +10,16 @@ import {ReactComponent as GithubIc} from '../assets/icons/github.svg';
 function Footer(){
     return(
         <footer>
-            <div className="site-map flex-column">
+            <div className="footer-item site-map flex-column">
                 <AnchorLink href="#hero"><p>Home</p></AnchorLink>
                 <AnchorLink href="#hero"><p>About</p></AnchorLink>
                 <AnchorLink href="#hero"><p>Timeline</p></AnchorLink>
                 <p>FAQ</p>
             </div>
-            <div>
-                <img src={logo} alt="MadHack logo" />
+            <div className="footer-item">
+                <img src={logo} alt="MadHack logo" id="logo" />
             </div>
-            <div>
+            <div className="footer-item">
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/IEEE.UCSC">
                     <FacebookIc height={24} width={24} />
                 </a>

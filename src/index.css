@@ -1,3 +1,4 @@
+/* general configurations */
 body {
   margin: 0;
   overflow-x: hidden;
@@ -12,47 +13,9 @@ body {
   color: rgb(255, 255, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
-
-.full-page{
-  height: 100vh;
-  width: 100%;
-}
-
-.title{
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 64px;
-  margin: 0;
-}
-
-.sub-title{
-  font-family: "main";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
-.right-align{
-  text-align: right;
-}
-.center-align{
-  text-align: center;
-}
-
-header{
-  top: 0;
 }
 
 button{
@@ -71,19 +34,44 @@ button{
   width: fit-content;
 }
 
-.black-transparent{
-  background-color: rgba(0, 0, 0, .5);
-  width: 100%;
+/* titles */
+
+.title{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin: 0;
 }
 
-.black-gradient{
-  background: rgb(0,0,0); 
-background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(5,5,5,0.25) 75%, rgba(0,0,0,0) 100%);
+.sub-title{
+  font-family: "main";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+/* element structures */
+
+.right-align{
+  text-align: right;
+}
+.center-align{
+  text-align: center;
+}
+
+.full-page{
+  height: 100vh;
+  width: 100%;
 }
 
 .padding-zero{
   padding: 0;
 }
+
+/* display & position */
 
 .absolute-center{
   position: absolute;
@@ -106,6 +94,18 @@ background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(5,5,5,0.25) 75%, rg
 
 .flex-row > * {
   flex : 1;
+}
+
+/* backgrounds & gradients */
+
+.black-transparent{
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+}
+
+.black-gradient{
+  background: rgb(0,0,0); 
+background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(5,5,5,0.25) 75%, rgba(0,0,0,0) 100%);
 }
 
 @font-face {
