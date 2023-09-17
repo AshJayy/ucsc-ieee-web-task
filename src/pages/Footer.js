@@ -12,12 +12,12 @@ function Footer(){
         <footer>
             <div className="footer-item site-map flex-column">
                 <AnchorLink href="#hero"><p>Home</p></AnchorLink>
-                <AnchorLink href="#hero"><p>About</p></AnchorLink>
-                <AnchorLink href="#hero"><p>Timeline</p></AnchorLink>
+                <AnchorLink href="#about"><p>About</p></AnchorLink>
+                <AnchorLink href="#timeline"><p>Timeline</p></AnchorLink>
                 <p>FAQ</p>
             </div>
             <div className="footer-item">
-                <img src={logo} alt="MadHack logo" id="logo" />
+                <AnchorLink href="#hero"><img src={logo} alt="MadHack logo" id="logo" /></AnchorLink>
             </div>
             <div className="footer-item">
                 <a target="_blank" rel="noreferrer" href="https://www.facebook.com/IEEE.UCSC">

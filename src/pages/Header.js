@@ -35,7 +35,7 @@ function Header(){
     return(
         <header className="black-transparent">
             <nav class={isSmall ? "nav nav-small" : "nav nav-large"}>
-            <img src={logo} alt="logo" id="logo" />
+            <img src={logo} alt="MadHack logo" id="logo" />
                 <ul className="nav-list">
                     <AnchorLink href="#hero"><li className="nav-item">Home</li></AnchorLink>
                     <AnchorLink href="#intro"><li className="nav-item">About</li></AnchorLink>

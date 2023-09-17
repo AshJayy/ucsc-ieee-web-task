@@ -18,7 +18,7 @@ function Hero(){
             <section id="hero">
                 <div className="hero-content black-gradient">
                     <div className="flex-column">
-                        <img src={logo} alt="logo" id="logo" />
+                        <img src={logo} alt="MadHack logo" id="logo" />
                         <button>Register Now</button>
                     </div>
                     <div>

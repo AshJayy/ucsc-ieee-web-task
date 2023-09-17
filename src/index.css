@@ -16,6 +16,12 @@ body {
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  height: inherit;
+}
+
+a:hover {
+  transform: scale(1.05);
+  transition: .5s;
 }
 
 button{
@@ -32,6 +38,11 @@ button{
   background: none;
   padding: .75em 1.5em;
   width: fit-content;
+}
+
+button:hover{
+  transform: scale(1.05);
+  transition: .5s;
 }
 
 /* titles */
