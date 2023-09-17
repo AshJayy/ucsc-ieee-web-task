@@ -27,8 +27,6 @@ function Header(){
             });
         };
 
-        
-
         window.addEventListener("scroll", handler);
     }, []);
 

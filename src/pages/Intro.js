@@ -23,8 +23,6 @@ function Intro(){
                         </div>
                     </ScrollAnimation>
                 </article>
-                
-
                 <article>
                     <ScrollAnimation animateIn="animate__fadeInRight" delay={500}>
                         <img src={mad} alt="Elevate mobile app development" />

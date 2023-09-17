@@ -6,8 +6,6 @@ import Intro from './pages/Intro';
 import Timeline from './pages/Timeline';
 import Footer from './pages/Footer';
 
-
-
 function App() {
   return (
     <div style={{backgroundImage:"url(/bg.jpg)", 
@@ -20,7 +18,6 @@ function App() {
         </ScrollAnimation>
         <Timeline />
         <Footer />
-
     </div>
   );
 }

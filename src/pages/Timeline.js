@@ -7,7 +7,7 @@ function Timeline(){
         {
             date: "28 Jan",
             title: "Launch Event",
-            desc: "Official kickoff and registrattions"
+            desc: "Official kickoff and registrations"
         },
         {
             date: "11 Feb",
@@ -27,7 +27,7 @@ function Timeline(){
         {
             date: "26 Feb",
             title: "Final Event",
-            desc: "Final project presentation & award ceramony"
+            desc: "Final project presentation & award ceremony"
         }
     ];
 
