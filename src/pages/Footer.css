@@ -1,0 +1,22 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8vw;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+footer img{
+    width: 15vw;
+}
+
+.site-map{
+    gap: .5em;
+}
