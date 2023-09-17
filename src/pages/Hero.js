@@ -15,7 +15,7 @@ function Hero(){
 
     return(
         <ScrollAnimation  animateIn="animate__fadeIn" animateOut="animate__fadeOut" initiallyVisible={firstLoad}>
-            <section id="hero" className="black-transparent">
+            <section id="hero" className="black-gradient">
                 <div className="flex-column">
                     <img src={logo} alt="logo" className="logo" />
                     <button>Register Now</button>
