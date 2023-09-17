@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import logo from '../logos/logo.png';
 import {ReactComponent as FacebookIc} from '../assets/icons/facebook.svg';
 import {ReactComponent as InstagramIc} from '../assets/icons/instagram.svg';
@@ -9,10 +10,9 @@ function Footer(){
     return(
         <footer>
             <div className="site-map flex-column">
-                <p>Home</p>
-                <p>About</p>
-                <p>Timelint</p>
-                <p>Prizes</p>
+                <AnchorLink href="#hero"><p>Home</p></AnchorLink>
+                <AnchorLink href="#hero"><p>About</p></AnchorLink>
+                <AnchorLink href="#hero"><p>Timeline</p></AnchorLink>
                 <p>FAQ</p>
             </div>
             <div>

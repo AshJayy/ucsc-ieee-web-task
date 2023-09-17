@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+}
+
 .full-page{
   height: 100vh;
   width: 100%;
@@ -102,3 +106,4 @@ button{
   font-family: "main";
   src: url("assets/fonts/ChakraPetch.ttf");
 }
+
