@@ -1,0 +1,14 @@
+react-animate-on-scroll 
+    (https://github.com/dbramwell/react-animate-on-scroll)
+
+react-anchor-link-smooth-scroll
+    (https://www.npmjs.com/package/react-anchor-link-smooth-scroll)
+
+Socials svg
+    instagram (https://icons8.com/icons/set/instagram)
+    facebook (https://icons8.com/icons/set/facebook)
+    linkedIn (https://icons8.com/icons/set/linkedin)
+    github (https://icons8.com/icons/set/github)
+
+Background
+    (https://wallspic.com/image/155332-metropolis-illustration-art-digital_art-behance)
