@@ -5,6 +5,7 @@ import logo from '../logos/logo.png';
 import {ReactComponent as FacebookIc} from '../assets/icons/facebook.svg';
 import {ReactComponent as InstagramIc} from '../assets/icons/instagram.svg';
 import {ReactComponent as LinkedIc} from '../assets/icons/linkedin.svg';
+import {ReactComponent as GithubIc} from '../assets/icons/github.svg';
 
 function Footer(){
     return(
@@ -19,9 +20,18 @@ function Footer(){
                 <img src={logo} alt="MadHack logo" />
             </div>
             <div>
-                <FacebookIc height={24} width={24} />
-                <InstagramIc />
-                <LinkedIc />
+                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/IEEE.UCSC">
+                    <FacebookIc height={24} width={24} />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ucsc.ieee/">
+                    <InstagramIc />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/ieee-student-branch-ucsc/">
+                    <LinkedIc />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/AshJayy/ucsc-ieee-web-task">
+                    <GithubIc />
+                </a>
             </div>
         </footer>
     );
